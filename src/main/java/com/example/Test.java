@@ -1,7 +1,5 @@
 package com.example;
-
 public class Test {
-
     public static void main(String[] args) {
         int ogrenciSayisi = 10;
         String mesaj = "Öğrenci Sayım: ";

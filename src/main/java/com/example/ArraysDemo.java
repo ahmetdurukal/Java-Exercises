@@ -1,5 +1,4 @@
 package com.example;
-
 public class ArraysDemo {
     public static void main(String[] args) {
         String ogrenci1="Engin";
@@ -9,7 +8,6 @@ public class ArraysDemo {
         System.out.println(ogrenci1);
         System.out.println(ogrenci2);
         System.out.println(ogrenci3);
-
         System.out.println("------------------------");
 
         String [] ogrenciler = new String[3];

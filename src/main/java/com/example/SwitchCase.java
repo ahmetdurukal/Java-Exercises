@@ -1,10 +1,7 @@
 package com.example;
-
 public class SwitchCase {
-
     public static void main(String[] args){
         char grade = 'B';
-
         switch(grade){
             case'A':
                 System.out.println("Mükemmel, Geçtiniz.");
