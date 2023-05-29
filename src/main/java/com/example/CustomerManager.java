@@ -1,20 +1,21 @@
 package com.example;
 
 public class CustomerManager {
-    public void Add(){
+    public void add() {
         System.out.println("Müşteri Eklendi.");
     }
-    public void Remove(){
+    public void remove() {
         System.out.println("Müşteri Silindi.");
     }
-    public void Update(){
+    public void update() {
         System.out.println("Müşteri güncellendi.");
     }
+
     public static void main(String[] args) {
         CustomerManager customerManager = new CustomerManager();
-        customerManager.Add();
-        customerManager.Remove();
-        customerManager.Update();
+        customerManager.add();
+        customerManager.remove();
+        customerManager.update();
     }
-    }
+}
 

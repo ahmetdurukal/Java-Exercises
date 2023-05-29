@@ -1,4 +1,5 @@
 package com.example;
+
 public class UseOfCondition {
     public static void main(String[] args) {
         int ogrenciSayisi = 10;

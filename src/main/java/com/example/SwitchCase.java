@@ -1,21 +1,22 @@
 package com.example;
+
 public class SwitchCase {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         char grade = 'B';
-        switch(grade){
-            case'A':
+        switch (grade) {
+            case 'A':
                 System.out.println("Mükemmel, Geçtiniz.");
                 break;
-            case'B':
-                 System.out.println("Cok güzel, Geçtiniz.");
-                 break;
-            case'C':
+            case 'B':
+                System.out.println("Cok güzel, Geçtiniz.");
+                break;
+            case 'C':
                 System.out.println("İyi, Geçtiniz.");
                 break;
-            case'D':
+            case 'D':
                 System.out.println("Fena değil, Geçtiniz.");
                 break;
-            case'F':
+            case 'F':
                 System.out.println("Maalesef, Kaldınız.");
                 break;
             default:
