@@ -1,5 +1,5 @@
 package com.example;
-public class AsalSayi {
+public class PrimeNumber {
     public static void main(String[] args){
         int number =7;
         int remainder = number % 2;

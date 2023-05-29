@@ -1,6 +1,6 @@
 package com.example;
 
-public class Donguler {
+public class Loops {
     public static void main(String[] args) {
         //For
         for (int a = 1; a <= 10; a = a+1) {
