@@ -1,5 +1,5 @@
 package com.example;
-public class Test {
+public class UseOfCondition {
     public static void main(String[] args) {
         int ogrenciSayisi = 10;
         String mesaj = "Öğrenci Sayım: ";
@@ -12,6 +12,7 @@ public class Test {
         } else {
             System.out.println("Sayı 20'den büyüktür");
         }
+
     }
 }
 
