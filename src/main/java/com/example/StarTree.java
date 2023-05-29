@@ -1,28 +1,41 @@
 package com.example;
+
 import java.util.Scanner;
+
 public class StarTree {
     public static void main(String[] args) {
+        System.out.println(getInput());
+    }
+
+    public static String getInput() {
         try {
             Scanner input = new Scanner(System.in);
             System.out.print("İlk satır yıldız sayısını giriniz (Tek sayı girmeniz düzgün sonuç verecektir.): ");
             int rows;
             rows = input.nextInt();
-
-            for (int rep = 1; rep < rows + 1; rep++) {
-                for (int space = 1; space < rep; space++) {
-                    System.out.print(" ");
-                }
-                for (int star = rep; star <= rows; star++) {
-                    System.out.print("*");
-                }
-                System.out.println();
-                rows -= 1;
-            }
-        }
-        catch (Exception InputMismatchException){
+            return drawTree(rows);
+        } catch (Exception InputMismatchException) {
             System.out.println("Geçerli bir değer giriniz. (Girdiğiniz değer int değidir.)");
-            return;
+            return getInput();
         }
     }
+
+    public static String drawTree(int length) {
+        String result = "";
+        for (int rep = 1; rep < length + 1; rep++) {
+            for (int space = 1; space < rep; space++) {
+                result = result + " ";
+            }
+            for (int star = rep; star <= length; star++) {
+                result = result + "*";
+            }
+            result = result + "\n";
+            length -= 1;
+        }
+        return result;
+    }
+
 }
+
+
 
