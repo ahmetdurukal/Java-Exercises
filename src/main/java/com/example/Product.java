@@ -1,33 +1,28 @@
 package com.example;
-import java.util.Arrays;
+
 public class Product {
-    //attribute | field
-    public int id;
+    private int _id;
     public String name;
     public String description;
     public double price;
-    public int stock;
+    private int _stock;
     public String renk;
-    private String kod;
-    public static void main(String[] args) {
-        Product pc = new Product();
-        pc.id = 1;
-        pc.name = "Asus";
-        pc.description = "Tuf Series";
-        pc.price = 20.000;
-        pc.stock = 300;
-        pc.renk = "Siyah";
-        pc.kod = pc.name + pc.id;
-        System.out.println("Ürün eklendi " + pc.name);
+
+    //getter
+    public int getId() {
+        return _id;
+    }
+
+    //setter
+    public void setId(int id) {
+        _id = id;
+    }
+
+    public int get_stock() {
+        return _stock;
+    }
+
+    public void set_stock(int stock) {
+        _stock = stock;
     }
 }
-
-
-
-
-
-
-
-
-
-
