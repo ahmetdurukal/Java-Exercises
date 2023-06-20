@@ -1,10 +1,7 @@
 package com.example;
-
 import org.junit.Assert;
 import org.junit.Test;
-
 import java.util.Arrays;
-
 public class SortTest {
     @Test
     public void sortTest() {
